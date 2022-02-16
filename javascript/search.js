@@ -12,5 +12,5 @@ searchBar.addEventListener("submit", (e) => {
   // Update the product section to ensure a search is done across all products and not only sections.
   sessionStorage.setItem("productSection", "all_products");
   // Navigate to the product page.
-  window.location.pathname = "products.html";
+  window.location.href = "https://elbie-deswardt.github.io/Neuweg-Website/products.html";
 });
