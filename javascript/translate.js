@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // If it is the first time the user logs on to the site, the default language is set to their location.
   if (sessionStorage.getItem("language") == null) {
+    
+    // Default language
+    let language = "en";
     // Get local language from web browser. If it contains 'de' set language to German, else keep it English.
     let lang = navigator.language; //from browser
     let localeLanguage = Intl.getCanonicalLocales(lang); //from browser validated
