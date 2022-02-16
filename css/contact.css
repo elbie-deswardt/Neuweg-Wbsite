@@ -1,0 +1,52 @@
+/* Contact Us Styling */
+.btn-submit {
+  border-color: darkslategrey;
+  border-width: 1.5px;
+  color: darkslategray;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5%;
+}
+
+.btn-submit:hover {
+  border-color: #048abf;
+  background-color: #048abf;
+  color: #fff;
+}
+
+.contact-form {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  padding: 3% 3%;
+}
+
+.contact-form h1 {
+  color: darkslategray;
+  padding-bottom: 10px;
+}
+
+.form-label {
+  margin: 10px 0 5px;
+}
+
+.hide-input {
+  display: none;
+}
+
+.submit-button {
+  text-align: center;
+}
+
+.trading-info {
+  background-color: #048abf;
+  color: #fff;
+  padding: 3% 10%;
+}
+
+.trading-info h3 {
+  padding: 20px 0;
+}
+
+#contact-us {
+  margin: 3% 10%;
+}

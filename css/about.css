@@ -1,0 +1,104 @@
+/* About Page Styling */
+
+#about {
+  font-family: "Open Sans", sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.about-content {
+  margin: 0 7%;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 3.25rem;
+  font-weight: bold;
+  margin-bottom: 7%;
+}
+
+.about-text {
+  background-color: #d9b70d;
+  color: #fff;
+  left: 7%;
+  padding: 2% 5%;
+  position: absolute;
+  top: 30%;
+  width: 60%;
+}
+
+.about-text h1 {
+  padding: 0.75rem 0;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.consultation {
+  font-size: 1.2rem;
+  margin-top: 5%;
+}
+
+.consultation a:hover {
+  color: #d9b70d;
+}
+
+.expertise {
+  background-color: #d3d1d14f;
+  padding: 5% 0 2%;
+}
+
+.expertise-text h6 {
+  font-size: 1.2rem;
+}
+
+.fa-atom {
+  float: left;
+}
+
+.img-fluid {
+  height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.row-expertise {
+  margin: 1.5rem auto;
+}
+
+.shadow {
+  box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.team {
+  margin-top: 5%;
+}
+
+.team-member {
+  padding: 0 4%;
+}
+
+.team-member img {
+  width: 90%;
+}
+
+.team-member-name {
+  color: #051026;
+  font-weight: bold;
+}
+
+.team-text {
+  background-color: #fff;
+  bottom: 10%;
+  left: 45%;
+  padding: 1rem;
+  position: relative;
+  text-align: left;
+  width: 70%;
+}

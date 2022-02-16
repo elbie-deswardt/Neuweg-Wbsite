@@ -1,0 +1,66 @@
+/* Product List Styling */
+
+.card-product-list {
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 0 auto 10% auto;
+  padding: 5%;
+  width: 95%;
+  height: 80%;
+}
+
+.card-product-list h4,
+p {
+  padding-left: 7%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hide {
+  display: none;
+}
+
+.no-results {
+  color: #051026;
+  font-size: 2rem;
+  margin: 30px 0 80px;
+  text-align: center;
+}
+
+.product-card-btn {
+  position: relative;
+  top: 5%;
+  width: 95%;
+}
+
+.product-card-btn:hover {
+  background-color: #d9b70d;
+  border-color: #d9b70d;
+}
+
+.product-card-img {
+  margin: 7% auto 0%;
+}
+
+#product-list {
+  margin: 0 10%;
+}
+
+#product-list h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.25rem;
+  font-weight: bold;
+  padding: 2% 0 5%;
+  text-align: center;
+}

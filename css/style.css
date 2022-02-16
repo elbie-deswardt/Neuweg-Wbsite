@@ -1,0 +1,92 @@
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Styling */
+
+.brand-logo {
+  margin: 3% 10%;
+  width: 80%;
+}
+
+.dropdown-item {
+  font-size: 1.2rem;
+  padding: 7%, 5%;
+}
+
+.expertise-text {
+  text-align: left;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  width: 25%;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  padding-right: 2rem;
+}
+
+.translate-icon {
+  margin-left: 100%;
+}
+
+/* Footer Styling */
+
+.copyright-text {
+  top: 30px;
+  font-size: 0.75rem;
+  position: relative;
+}
+
+.footer-col {
+  padding: 3% 2px;
+}
+
+.icon {
+  padding: 0.5rem 1rem;
+}
+
+.top-arrow-text {
+  font-size: 0.75rem;
+  margin-bottom: 10%;
+}
+
+.top-col {
+  text-align: center;
+}
+
+#footer {
+  background-color: #03a696;
+  color: #fff;
+  font-size: 1rem;
+  padding: 2% 5%;
+  margin-top: 5%;
+}
+
+#socials {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#socials i:hover {
+  color: lightgray;
+}
+
+#top-arrow {
+  bottom: 20px;
+  position: relative;
+}
+
+#top-arrow:hover {
+  color: lightgray;
+}

@@ -1,0 +1,114 @@
+/* Carousel Styling */
+
+#carouselHomeControls {
+  height: 50%;
+}
+
+.carousel-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 4rem;
+  position: absolute;
+}
+
+.carousel-text-english-1 {
+  color: #fff;
+  left: 9%;
+  top: 20%;
+}
+
+.carousel-text-english-2 {
+  color: #fff;
+  right: 9%;
+  top: 20%;
+}
+
+.carousel-text-english-3 {
+  color: #d9b70d;
+  right: 9%;
+  top: 60%;
+}
+
+.carousel-text-german-1 {
+  color: #051026;
+  font-weight: bold;
+  left: 9%;
+  top: 30%;
+}
+
+.carousel-text-german-2 {
+  color: #051026;
+  font-weight: bold;
+  right: 9%;
+  top: 30%;
+}
+
+.carousel-text-german-3 {
+  color: #051026;
+  font-weight: bold;
+  right: 9%;
+  top: 70%;
+}
+
+.carousel .carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  left: 0;
+  min-height: 600px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+/* Products Menu Styling */
+
+.product-catagory-card {
+  border-color: darkslategray;
+  border-width: 2px;
+  margin: 5%;
+}
+
+.product-catagory-card .card-body {
+  padding: 10%;
+}
+
+.product-catagory-card .card-header {
+  background-color: #fff;
+  border-color: darkslategray;
+  font-size: 2rem;
+  padding: 1rem 4px;
+  text-align: center;
+}
+
+.product-btn {
+  border-color: darkslategray;
+  color: darkslategray;
+  width: 70%;
+}
+
+.product-btn:hover {
+  background-color: #d9b70d;
+  border-color: #d9b70d;
+  color: #fff;
+}
+
+.product-menu-header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
+  margin: 6%;
+}
+
+.product-icon {
+  margin-bottom: 10%;
+  width: 50%;
+}
+
+.smaller-font-title {
+  font-size: 3rem;
+}
+
+#product-menu {
+  padding: 0 10%;
+  text-align: center;
+}

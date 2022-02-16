@@ -1,0 +1,39 @@
+#thank-you {
+  border: 2px solid #d9b70d;
+  font-family: "Open Sans", sans-serif;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.btn-back {
+  border: 2px solid #d9b70d;
+  background-color: transparent;
+  border-radius: 5%;
+  color: #d9b70d;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  height: 50px;
+  margin-top: 5%;
+  width: 180px;
+}
+
+.btn-back:hover {
+  border-color: #d9b70d;
+  background-color: #d9b70d;
+  color: #fff;
+}
+
+.check-icon {
+  color: #d9b70d;
+  margin-bottom: 40px;
+}
+
+.thanking-title {
+  font-size: 2.1rem;
+  margin: 30px;
+}
