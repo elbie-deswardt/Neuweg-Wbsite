@@ -22,14 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Custom css styling of German web version.
-  if ((sessionStorage.getItem("language") == "de") && window.location.pathname == "Neuweg-Website/index.html") {
+  if ((sessionStorage.getItem("language") == "de") && window.location.pathname == "/Neuweg-Website/index.html") {
     $('h4:contains("Ear-Nose-Throat")').css("font-size", "1.2rem");
   }
   
   console.log(window.location.pathname);
 
   // Custom css styling of German web version.
-  if ((sessionStorage.getItem("language") == "de") && window.location.pathname == "Neuweg-Website/products.html" && sessionStorage.getItem("productSection") == "sterilization") {
+  if ((sessionStorage.getItem("language") == "de") && window.location.pathname == "/Neuweg-Website/products.html" && sessionStorage.getItem("productSection") == "sterilization") {
     $('h4:contains("Cleaning, Disinfection and Sterilization")').css("font-size", "1.4rem");
   }
 
