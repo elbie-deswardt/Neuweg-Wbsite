@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
         // Reset search session when done
         sessionStorage.setItem("userSearch", false);
 
-        console.log(matches);
         if (matches.length === 0) {
             $(
                 `<h3 class="no-results" lang-key="no_results">No results found.</h3>`

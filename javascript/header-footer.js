@@ -58,15 +58,15 @@ class MyNavbar extends HTMLElement {
                         <a class="nav-link" lang-key="contact" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex" id="nav-bar-search">
+                <form class="d-flex" id="navbar-search">
                     <input class="form-control me-2" id="search-input" href="products.html" type="search"
                         placeholder="Search" aria-label="Search">
                 </form>
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item dropdown me-auto">
-                        <a class="nav-link dropdown-toggle me-auto" href="#" id="navbarLanguageDropdownMenuLink"
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item translate-menu dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLanguageDropdownMenuLink"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="translate-icon"><i class="fas fa-globe-americas fa-2x"></i></span>
+                            <i class="fas fa-globe-americas fa-2x"></i>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarLanguageDropdownMenuLink">
                             <li><a class="dropdown-item language-item" data-lang="en" href="#">English</a></li>
@@ -98,7 +98,7 @@ class MyFooter extends HTMLElement {
           <div class="row">
             <div class="col-2"><i class="icon fas fa-map-marker-alt"></i></div>
             <div class="col-10">
-              NEUWEG GmbH c/o Acconsis GmbH Schloßschmidstr. 5 D-80639 Munich
+              NEUWEG GmbH <br /> c/o Acconsis GmbH <br /> Schloßschmidstr. 5<br /> D-80639 Munich
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ $(".language-item").click(function () {
 
 
 // Script for search bar functionality
-const searchBar = document.getElementById("nav-bar-search");
+const searchBar = document.getElementById("navbar-search");
 const searchInput = document.getElementById("search-input");
 
 // This listens for a searchbar submit or "Enter".
@@ -159,5 +159,5 @@ searchBar.addEventListener("submit", (e) => {
   // Update the product section to ensure a search is done across all products and not only sections.
   sessionStorage.setItem("productSection", "all_products");
   // Navigate to the product page.
-  window.location.href  = "https://elbie-deswardt.github.io/Neuweg-Website/products.html";
+  window.location.pathname = "/Neuweg-Website/products.html";
 });

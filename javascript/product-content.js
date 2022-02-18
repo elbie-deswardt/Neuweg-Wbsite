@@ -70,18 +70,18 @@ const products = {
       image: "images/Cystoscope.PNG",
       page: 34,
     },
-    // {
-    //   name: "New Product 1",
-    //   subText: "Lorem ipsum dolor sit amet.",
-    //   image: "images/Cystoscope.PNG",
-    //   page: 36,
-    // },
-    // {
-    //   name: "New Product 2",
-    //   subText: "Lorem ipsum dolor sit amet.",
-    //   image: "images/Cystoscope.PNG",
-    //   page: 38,
-    // },
+    {
+      name: "New Product 1",
+      subText: "Lorem ipsum dolor sit amet.",
+      image: "images/Cystoscope.PNG",
+      page: 36,
+    },
+    {
+      name: "New Product 2",
+      subText: "Lorem ipsum dolor sit amet.",
+      image: "images/Cystoscope.PNG",
+      page: 38,
+    },
   ],
 
   laparoscopy: [

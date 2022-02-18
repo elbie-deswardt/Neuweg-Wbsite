@@ -11,8 +11,6 @@ $(
   `<h1 class="product-section-header" lang-key=${productSection}>${langdata.languages["en"][productSection]}</h1>`
 ).prependTo("#product-list");
 
-
-console.log(productSection);
 // THIS SECTION DYNAMICALLY RENDERS ALL LOADED SECTION CONTENT
 
 let sectionsToDisplay = [];
