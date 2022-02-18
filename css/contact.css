@@ -1,9 +1,19 @@
 /* Contact Us Styling */
+
+h3 {
+  font-size: 1.8vw;
+}
+
+p {
+  font-size: 1.1vw;
+}
+
 .btn-submit {
   border-color: darkslategrey;
   border-width: 1.5px;
   color: darkslategray;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.2vw;
   margin-top: 5%;
 }
 
@@ -22,11 +32,28 @@
 
 .contact-form h1 {
   color: darkslategray;
+  font-size: 2.5vw;
   padding-bottom: 10px;
 }
 
 .form-label {
+  font-size: 1.1vw;
   margin: 10px 0 5px;
+}
+
+.form-text {
+  font-size: 1vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item-trading-info {
+  background-color: #048abf;
+  color: #fff;
+  padding: 5% 10%;
 }
 
 .hide-input {
@@ -37,16 +64,88 @@
   text-align: center;
 }
 
-.trading-info {
-  background-color: #048abf;
-  color: #fff;
-  padding: 3% 10%;
-}
-
 .trading-info h3 {
   padding: 20px 0;
 }
 
 #contact-us {
   margin: 3% 10%;
+}
+
+@media (min-width: 1500px) {
+  .contact-form h1 {
+    font-size: 2vw;
+  }
+
+  h3 {
+    font-size: 1.5vw;
+  }
+
+  p {
+    font-size: 1vw;
+  }
+}
+
+@media (max-width: 1400px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 520px auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-form h1 {
+    font-size: 2.8vw;
+  }
+
+  .form-label {
+    font-size: 1.5vw;
+  }
+
+  .form-text {
+    font-size: 1.3vw;
+  }
+
+  .btn-submit {
+    font-size: 2vw;
+  }
+
+  h3 {
+    font-size: 1.8vw;
+  }
+
+  p {
+    font-size: 1.3vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: 20% 80%;
+  }
+
+  .grid-item-contact-form {
+    grid-row: 2/3;
+  }
+
+  .grid-item-trading-info {
+    display: grid;
+    grid-row: 1/2;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3% 5%;
+    text-align: center;
+  }
+
+  .grid-item-hr {
+    display: none;
+  }
+
+  h3 {
+    margin-bottom: 2vw;
+  }
+
+  p {
+    font-size: 1.3vw;
+  }
 }

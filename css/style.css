@@ -11,7 +11,7 @@ body {
 }
 
 .dropdown-item {
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   padding: 7%, 5%;
 }
 
@@ -32,19 +32,20 @@ body {
 }
 
 .nav-item {
-  font-size: 1.25rem;
-  padding-right: 2rem;
+  font-size: 1.2vw;
+  padding-right: 3vw;
 }
 
-.translate-icon {
-  margin-left: 100%;
+.translate-menu {
+  margin-left: auto;
+  margin-right: 0;
 }
 
 /* Footer Styling */
 
 .copyright-text {
   top: 30px;
-  font-size: 0.75rem;
+  font-size: 0.8vw;
   position: relative;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .top-arrow-text {
-  font-size: 0.75rem;
+  font-size: 0.75vw;
   margin-bottom: 10%;
 }
 
@@ -68,13 +69,22 @@ body {
 #footer {
   background-color: #03a696;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1vw;
   padding: 2% 5%;
   margin-top: 5%;
 }
 
+#navbar-search {
+  margin: auto;
+  width: 18vw;
+}
+
+#search-input {
+  font-size: 1vw;
+}
+
 #socials {
-  font-size: 1.2em;
+  font-size: 1.3vw;
   text-align: center;
 }
 
@@ -89,4 +99,32 @@ body {
 
 #top-arrow:hover {
   color: lightgray;
+}
+
+@media (max-width: 992px) {
+  .copyright-text {
+    font-size: 1vw;
+  }
+
+  .nav-item {
+    font-size: 2vw;
+  }
+
+  .top-arrow-text {
+    font-size: 1vw;
+  }
+
+  #footer {
+    font-size: 1.25vw;
+    padding: 3vw;
+  }
+
+  #navbar-search {
+    margin: auto;
+    width: 25vw;
+  }
+
+  #search-input {
+    font-size: 1.5vw;
+  }
 }
