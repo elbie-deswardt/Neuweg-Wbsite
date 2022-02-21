@@ -12,7 +12,6 @@ body {
 
 .dropdown-item {
   font-size: 1.2vw;
-  padding: 7%, 5%;
 }
 
 .expertise-text {
@@ -102,12 +101,25 @@ body {
 }
 
 @media (max-width: 992px) {
+  .brand-logo {
+    margin: 3% 10%;
+    width: 120%;
+  }
+
   .copyright-text {
     font-size: 1vw;
   }
 
-  .nav-item {
+  .dropdown-item {
     font-size: 2vw;
+  }
+
+  .icon {
+    padding: 0.5vw 1vw;
+  }
+
+  .nav-item {
+    font-size: 2.5vw;
   }
 
   .top-arrow-text {
@@ -125,6 +137,6 @@ body {
   }
 
   #search-input {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
