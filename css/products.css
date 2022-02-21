@@ -86,19 +86,19 @@ p {
 
 @media (max-width: 900px) {
   .card-title {
-    font-size: 3vw;
+    font-size: 2.7vw;
   }
 
   .card-text {
-    font-size: 2.5vw;
+    font-size: 2.3vw;
   }
 
   .grid-container {
-    grid-template-columns: 100%;
+    grid-template-columns: 90%;
   }
 
   .product-card-btn {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
   }
 
   #product-list {
@@ -106,6 +106,6 @@ p {
   }
 
   #product-list h1 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 }

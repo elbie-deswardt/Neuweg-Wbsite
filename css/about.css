@@ -57,8 +57,19 @@ a:link {
   padding: 5% 0 2%;
 }
 
-.expertise-text h6 {
+.expertise-grid{
+  display:grid;
+  grid-template-columns: 1fr 5fr 1fr 5fr;
+  justify-content: center;
+}
+
+.expertise-icon{
+  padding: 1vw;
+}
+
+.expertise-text {
   font-size: 1.5vw;
+  padding: 0.5vw;
 }
 
 .fa-atom {
@@ -114,27 +125,48 @@ a:link {
 }
 
 @media (max-width: 992px) {
-  .consultation a:link {
-    font-size: 1.5vw;
+  .about-content h1 {
+    font-size: 5vw;
   }
 
   .about-text {
-    width: 70%;
+    width: 85%;
   }
 
   .about-text h1 {
-    font-size: 2.8vw;
+    font-size: 5vw;
   }
 
   .about-text p {
-    font-size: 1.5vw;
+    font-size: 2.2vw;
+  }
+
+  .consultation a:link {
+    font-size: 2vw;
+  }
+
+  .expertise-grid{
+    grid-template-columns: 10% 90%;
+  }
+
+  .expertise-text{
+    font-size: 2.3vw;
+  }
+  
+
+  .img-fluid {
+    height: 60vw;
+  }
+
+  .team-member img {
+    width: 100%;
   }
 
   .team-member-name {
-    font-size: 1.6vw;
+    font-size: 1.8vw;
   }
 
   .team-member-position {
-    font-size: 1.4vw;
+    font-size: 1.5vw;
   }
 }

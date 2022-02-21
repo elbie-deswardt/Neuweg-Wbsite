@@ -151,7 +151,7 @@
   }
 
   .carousel .carousel-item {
-    height: 400px;
+    height: 500px;
   }
 
   .carousel-item img {
@@ -160,5 +160,14 @@
 
   .product-btn {
     font-size: 1.5vw;
+  }
+
+  .product-menu-header {
+    font-size: 6vw;
+    margin: 6%;
+  }
+
+  #product-menu {
+    padding: 0 8vw;
   }
 }
