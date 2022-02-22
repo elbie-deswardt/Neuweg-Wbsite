@@ -30,146 +30,150 @@
 </head>
 
 <body>
-  <my-navbar></my-navbar>
+  <div class="content">
+    <my-navbar></my-navbar>
 
 
-  <!-- Carousel -->
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="5000">
-        <img src="images/Doctor.jpg" class="d-block w-100 home-image" alt="Doctor" />
-        <h1 class="carousel-text carousel-text-english-1">The new way</h1>
-        <h1 class="carousel-text carousel-text-german-1">Der neue Weg</h1>
+    <!-- Carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="images/Doctor.jpg" class="d-block w-100 home-image" alt="Doctor" />
+          <h1 class="carousel-text carousel-text-english-1">The new way</h1>
+          <h1 class="carousel-text carousel-text-german-1">Der neue Weg</h1>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="images/Medical_Machinery.jpg" class="d-block w-100 home-image" alt="Medical Machinery" />
+          <h1 class="carousel-text carousel-text-english-2">The new way</h1>
+          <h1 class="carousel-text carousel-text-german-2">Der neue Weg</h1>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/Doctors.jpg" class="d-block w-100 home-image" alt="Doctors looking at an X-ray" />
+          <h1 class="carousel-text carousel-text-english-3">The new way</h1>
+          <h1 class="carousel-text carousel-text-german-3">Der neue Weg</h1>
+        </div>
       </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="images/Medical_Machinery.jpg" class="d-block w-100 home-image" alt="Medical Machinery" />
-        <h1 class="carousel-text carousel-text-english-2">The new way</h1>
-        <h1 class="carousel-text carousel-text-german-2">Der neue Weg</h1>
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="images/Doctors.jpg" class="d-block w-100 home-image" alt="Doctors looking at an X-ray" />
-        <h1 class="carousel-text carousel-text-english-3">The new way</h1>
-        <h1 class="carousel-text carousel-text-german-3">Der neue Weg</h1>
-      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
 
-  <!-- Product Menu -->
+    <!-- Product Menu -->
 
-  <div id="product-menu">
-    <h1 class="product-menu-header" lang-key="products">Products</h1>
-    <div class="row">
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="urology">
-              Urology
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Urology.PNG" alt="Urology" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="orthopedics">
-              Orthopedics
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Orthopedics.png" alt="Orthopedics" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html"
-              onclick="setProductSection();">View</a>
+    <div id="product-menu">
+      <h1 class="product-menu-header" lang-key="products">Products</h1>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="urology">
+                Urology
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Urology.PNG" alt="Urology" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="laparoscopy">
-              Laparoscopy
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Laparoscopy.png" alt="Laparoscopy" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="gynecology">
-              Gynecology
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Gynecology.png" alt="Gynecology" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="orthopedics">
+                Orthopedics
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Orthopedics.png" alt="Orthopedics" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html"
+                onclick="setProductSection();">View</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="ear_nose_throat">
-              Ear-Nose-Throat
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Ear-nose-throat.png" alt="Ear-Nose-Throat" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="light_sources">
-              Light Sources
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Light-source.png" alt="Light-Sources" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="laparoscopy">
+                Laparoscopy
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Laparoscopy.png" alt="Laparoscopy" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="sterilization">
-              Sterilization
-            </h4>
-          </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Sterilization.png" alt="Sterilization" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="gynecology">
+                Gynecology
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Gynecology.png" alt="Gynecology" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="card product-catagory-card">
-          <div class="card-header">
-            <h4 class="card-title my-0 fw-normal" lang-key="demonstration">
-              Demonstration
-            </h4>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="ear_nose_throat">
+                Ear-Nose-Throat
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Ear-nose-throat.png" alt="Ear-Nose-Throat" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
           </div>
-          <div class="card-body">
-            <img class="product-icon" src="images/Demonstration.png" alt="Demonstration" />
-            <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="light_sources">
+                Light Sources
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Light-source.png" alt="Light-Sources" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="sterilization">
+                Sterilization
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Sterilization.png" alt="Sterilization" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card product-catagory-card">
+            <div class="card-header">
+              <h4 class="card-title my-0 fw-normal" lang-key="demonstration">
+                Demonstration
+              </h4>
+            </div>
+            <div class="card-body">
+              <img class="product-icon" src="images/Demonstration.png" alt="Demonstration" />
+              <a class="btn btn-lg btn-outline-secondary product-btn" lang-key="view" href="products.html">View</a>
+            </div>
           </div>
         </div>
       </div>

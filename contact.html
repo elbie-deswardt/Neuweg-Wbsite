@@ -30,104 +30,105 @@
 </head>
 
 <body>
+  <div class="content">
+    <my-navbar></my-navbar>
 
-  <my-navbar></my-navbar>
-
-  <!-- Contact Us Form -->
-  <div id="contact-us">
-    <div class="grid-container">
-      <div class="grid-item grid-item-contact-form">
-        <div class="contact-form">
-          <form action="https://formsubmit.co/elbie.gouws@hotmail.com" method="POST">
-            <h1 lang-key="contact">Contact Us</h1>
-            <div class="row">
-              <div class="col">
-                <label for="inputName" class="form-label" lang-key="first_name">First Name</label>
-                <input type="text" name="name" class="form-control" id="inputName" />
+    <!-- Contact Us Form -->
+    <div id="contact-us">
+      <div class="grid-container">
+        <div class="grid-item grid-item-contact-form">
+          <div class="contact-form">
+            <form action="https://formsubmit.co/elbie.gouws@hotmail.com" method="POST">
+              <h1 lang-key="contact">Contact Us</h1>
+              <div class="row">
+                <div class="col">
+                  <label for="inputName" class="form-label" lang-key="first_name">First Name</label>
+                  <input type="text" name="name" class="form-control" id="inputName" />
+                </div>
+                <div class="col">
+                  <label for="inputSurname" class="form-label" lang-key="surname">Surname</label>
+                  <input type="text" name="surname" class="form-control" id="inputSurname" />
+                </div>
               </div>
-              <div class="col">
-                <label for="inputSurname" class="form-label" lang-key="surname">Surname</label>
-                <input type="text" name="surname" class="form-control" id="inputSurname" />
+              <label for="inputEmail" class="form-label" lang-key="email">Email address</label>
+              <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                required />
+              <div id="emailHelp" class="form-text" lang-key="email_disclosure">
+                We'll never share your email with anyone else.
               </div>
-            </div>
-            <label for="inputEmail" class="form-label" lang-key="email">Email address</label>
-            <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-              required />
-            <div id="emailHelp" class="form-text" lang-key="email_disclosure">
-              We'll never share your email with anyone else.
-            </div>
-            <label for="yourMessage" class="form-label" lang-key="message">Message</label>
-            <textarea type="text" name="message" class="form-control" id="yourMessage" cols="30" rows="7"
-              required></textarea>
-            <div class="submit-button">
-              <button type="submit" class="btn btn-outline-primary btn-submit" lang-key="submit">Submit</button>
-            </div>
-            <input class="hide-input" type="hidden" name="_next"
-              value="https://elbie-deswardt.github.io/Neuweg-Website/thankyou.html">
-            <input class="hide-input" type="hidden" name="_subject" value="Neuweg Website Quuery">
-            <input class="hide-input" type="text" name="_honey" style="display:none">
-            <input class="hide-input" type="hidden" name="_captcha" value="false">
-          </form>
-        </div>
-      </div>
-
-      <div class="desktop-bar">
-        <div class="grid-item grid-item-trading-info">
-          <div class="grid-item grid-item-trading-hours">
-            <h3 lang-key="opening_hours">Opening Hours</h3>
-            <p lang-key="mon_fri">Monday-Friday: 9am to 5pm</p>
-            <p lang-key="weekend_hours">Saturday-Sunday: Closed</p>
-          </div>
-          <div class="grid-item grid-item-hr">
-            <hr />
-          </div>
-          <div class="grid-item grid-item-headquarters">
-            <h3 lang-key="headquarters">Headquarters</h3>
-            <p>
-              NEUWEG GmbH c/o <br />
-              Acconsis GmbH <br />
-              Schloßschmidstr. <br />
-              5 D-80639 Munich
-            </p>
-          </div>
-          <div class="grid-item grid-item-contact-details">
-            <p>+49 (89) 54714 - 3</p>
-            <p>+49 (89) 54714 - 5964</p>
-            <p>info@neuwegmed.de</p>
+              <label for="yourMessage" class="form-label" lang-key="message">Message</label>
+              <textarea type="text" name="message" class="form-control" id="yourMessage" cols="30" rows="7"
+                required></textarea>
+              <div class="submit-button">
+                <button type="submit" class="btn btn-outline-primary btn-submit" lang-key="submit">Submit</button>
+              </div>
+              <input class="hide-input" type="hidden" name="_next"
+                value="https://elbie-deswardt.github.io/Neuweg-Website/thankyou.html">
+              <input class="hide-input" type="hidden" name="_subject" value="Neuweg Website Quuery">
+              <input class="hide-input" type="text" name="_honey" style="display:none">
+              <input class="hide-input" type="hidden" name="_captcha" value="false">
+            </form>
           </div>
         </div>
-      </div>
 
-      <div class="mobile-bar">
-        <div class="grid-item grid-item-trading-info">
-          <div class="grid-item grid-item-trading-hours">
-            <h3 lang-key="opening_hours">Opening Hours</h3>
-            <p lang-key="mon_fri">Monday-Friday: 9am to 5pm</p>
-            <p lang-key="weekend_hours">Saturday-Sunday: Closed</p>
-          </div>
-          <div class="grid-item grid-item-headquarters">
-            <div class="row">
-              <div class="col-3">
-                <i class="icon trading-icon fas fa-map-marker-alt"></i>
-              </div>
-              <div class="col-8">
-                <p>
-                  NEUWEG GmbH c/o <br />
-                  Acconsis GmbH <br />
-                  Schloßschmidstr. <br />
-                  5 D-80639 Munich
-                </p>
-              </div>
+        <div class="desktop-bar">
+          <div class="grid-item grid-item-trading-info">
+            <div class="grid-item grid-item-trading-hours">
+              <h3 lang-key="opening_hours">Opening Hours</h3>
+              <p lang-key="mon_fri">Monday-Friday: 9am to 5pm</p>
+              <p lang-key="weekend_hours">Saturday-Sunday: Closed</p>
+            </div>
+            <div class="grid-item grid-item-hr">
+              <hr />
+            </div>
+            <div class="grid-item grid-item-headquarters">
+              <h3 lang-key="headquarters">Headquarters</h3>
+              <p>
+                NEUWEG GmbH c/o <br />
+                Acconsis GmbH <br />
+                Schloßschmidstr. <br />
+                5 D-80639 Munich
+              </p>
+            </div>
+            <div class="grid-item grid-item-contact-details">
+              <p>+49 (89) 54714 - 3</p>
+              <p>+49 (89) 54714 - 5964</p>
+              <p>info@neuwegmed.de</p>
             </div>
           </div>
-          <div class="grid-item grid-item-contact-details">
-            <h6><i class="icon trading-icon fas fa-phone-alt"></i>+49 (89) 54714 - 3/<h6>
-                <h6><i class="icon trading-icon fas fa-fax"></i>+49 (89) 54714 - 5964</h6>
-                <h6><i class="icon trading-icon far fa-envelope"></i>info@neuwegmed.de</h6>
+        </div>
+
+        <div class="mobile-bar">
+          <div class="grid-item grid-item-trading-info">
+            <div class="grid-item grid-item-trading-hours">
+              <h3 lang-key="opening_hours">Opening Hours</h3>
+              <p lang-key="mon_fri">Monday-Friday: 9am to 5pm</p>
+              <p lang-key="weekend_hours">Saturday-Sunday: Closed</p>
+            </div>
+            <div class="grid-item grid-item-headquarters">
+              <div class="row">
+                <div class="col-3">
+                  <i class="icon trading-icon fas fa-map-marker-alt"></i>
+                </div>
+                <div class="col-8">
+                  <p>
+                    NEUWEG GmbH c/o <br />
+                    Acconsis GmbH <br />
+                    Schloßschmidstr. <br />
+                    5 D-80639 Munich
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="grid-item grid-item-contact-details">
+              <h6><i class="icon trading-icon fas fa-phone-alt"></i>+49 (89) 54714 - 3/<h6>
+                  <h6><i class="icon trading-icon fas fa-fax"></i>+49 (89) 54714 - 5964</h6>
+                  <h6><i class="icon trading-icon far fa-envelope"></i>info@neuwegmed.de</h6>
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
 
