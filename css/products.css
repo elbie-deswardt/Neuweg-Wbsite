@@ -94,7 +94,7 @@ p {
   }
 
   .grid-container {
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
   }
 
   .product-card-btn {
@@ -102,7 +102,7 @@ p {
   }
 
   #product-list {
-    margin: 0 12vw;
+    margin: 0 15vw;
   }
 
   #product-list h1 {
