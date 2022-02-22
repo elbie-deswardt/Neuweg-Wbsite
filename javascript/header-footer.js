@@ -96,16 +96,16 @@ class MyFooter extends HTMLElement {
       <div class="row">
         <div class="col footer-col">
           <div class="row">
-            <div class="col-2"><i class="icon fas fa-map-marker-alt"></i></div>
+            <div class="col-2"><i class="icon footer-icon  fas fa-map-marker-alt"></i></div>
             <div class="col-10">
               NEUWEG GmbH <br /> c/o Acconsis GmbH <br /> Schloßschmidstr. 5<br /> D-80639 Munich
             </div>
           </div>
         </div>
         <div class="col footer-col">
-          <i class="icon fas fa-phone-alt"></i>+49 (89) 54714 - 3<br />
-          <i class="icon fas fa-fax"></i>+49 (89) 54714 - 5964<br />
-          <i class="icon far fa-envelope"></i>info@neuwegmed.de
+          <i class="icon footer-icon fas fa-phone-alt"></i>+49 (89) 54714 - 3<br />
+          <i class="icon footer-icon  fas fa-fax"></i>+49 (89) 54714 - 5964<br />
+          <i class="icon footer-icon  far fa-envelope"></i>info@neuwegmed.de
         </div>
         <div class="col top-col footer-col">
           <i class="fas fa-chevron-up fa-4x" id="top-arrow" href="#"></i><br />
