@@ -52,7 +52,11 @@ body {
   padding: 3% 2px;
 }
 
-.icon {
+.footer-icon{
+  padding: 0.5vw 1vw;
+}
+
+.socials-icon {
   padding: 0.5rem 1rem;
 }
 
@@ -114,7 +118,7 @@ body {
     font-size: 2.3vw;
   }
 
-  .icon {
+  .footer-icon {
     padding: 0.5vw 1vw;
   }
 

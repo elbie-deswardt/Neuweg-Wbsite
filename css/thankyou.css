@@ -43,3 +43,13 @@
     width: 45%;
   }
 }
+
+@media (max-width: 992px) {
+  .thanking-title {
+    font-size: 4vw;
+  }
+
+  h4{
+    font-size: 2.2vw ;
+  }
+}

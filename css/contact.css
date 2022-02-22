@@ -45,19 +45,26 @@ p {
   font-size: 1vw;
 }
 
+.desktop-bar{
+  background-color: #048abf;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid-item-trading-info {
-  background-color: #048abf;
   color: #fff;
   padding: 5% 10%;
 }
 
 .hide-input {
   display: none;
+}
+
+.mobile-bar{
+  display:none;
 }
 
 .submit-button {
@@ -110,16 +117,10 @@ p {
     font-size: 2vw;
   }
 
-  h3 {
-    font-size: 1.8vw;
+  .desktop-bar{
+    display:none;
   }
 
-  p {
-    font-size: 1.3vw;
-  }
-}
-
-@media (max-width: 992px) {
   .grid-container {
     grid-template-columns: auto;
     grid-template-rows: 20% 80%;
@@ -129,23 +130,43 @@ p {
     grid-row: 2/3;
   }
 
-  .grid-item-trading-info {
-    display: grid;
-    grid-row: 1/2;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 3% 5%;
-    text-align: center;
+  .grid-item-trading-hours{
+    position:relative;
+    left:3vw;
   }
 
-  .grid-item-hr {
-    display: none;
+
+  .grid-item-trading-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    padding: 4% 5%;
+  }
+
+  .mobile-bar{
+    display: inline;
+    background-color: #048abf;
+  }
+
+  .trading-icon{
+    padding: 0.5vw 2vw;
+  }
+
+  #contact-us {
+    margin: 3% 5vw;
   }
 
   h3 {
-    margin-bottom: 2vw;
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+  }
+
+  h6{
+    font-size: 1.7vw;
   }
 
   p {
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    margin-bottom: 0.8vw;
   }
 }
