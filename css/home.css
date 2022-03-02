@@ -1,21 +1,9 @@
 /* Carousel Styling */
 
-#carouselHomeControls {
-  height: 50%;
-}
-
 .carousel-text {
   font-family: "Raleway", sans-serif;
   font-size: 5vw;
   position: absolute;
-}
-
-.carousel-text:after {
-  position: absolute;
-  content: "";
-  bottom: -40px;
-  height: 40px;
-  width: 1px;
 }
 
 .carousel-text-english-1 {
@@ -62,23 +50,13 @@
 }
 
 .carousel-item img {
-  left: 0;
   min-height: 500px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
 }
 
 /* Products Menu Styling */
 
 .card-title {
   font-size: 1.5vw;
-}
-
-.product-menu-items {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .product-catagory-card {
@@ -94,8 +72,6 @@
 .product-catagory-card .card-header {
   background-color: #fff;
   border-color: darkslategray;
-  padding: 0.5vw auto;
-  text-align: center;
 }
 
 .product-btn {
@@ -132,16 +108,16 @@
 }
 
 @media (min-width: 1570px) {
-  #product-menu {
-    padding: 0 15%;
-  }
-
   .carousel .carousel-item {
     height: 700px;
   }
 
   .carousel-item img {
     min-height: 700px;
+  }
+
+  #product-menu {
+    padding: 0 15%;
   }
 }
 
@@ -151,11 +127,7 @@
   }
 
   .carousel .carousel-item {
-    height: 500px;
-  }
-
-  .carousel-item img {
-    min-height: 400px;
+    height: 450px;
   }
 
   .product-btn {
@@ -164,7 +136,6 @@
 
   .product-menu-header {
     font-size: 6vw;
-    margin: 6%;
   }
 
   #product-menu {

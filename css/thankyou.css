@@ -11,8 +11,8 @@
 }
 
 .btn-back {
-  border: 2px solid #d9b70d;
   background-color: transparent;
+  border: 2px solid #d9b70d;
   border-radius: 5%;
   color: #d9b70d;
   font-family: "Open Sans", sans-serif;
@@ -23,8 +23,8 @@
 }
 
 .btn-back:hover {
-  border-color: #d9b70d;
   background-color: #d9b70d;
+  border-color: #d9b70d;
   color: #fff;
 }
 
@@ -49,7 +49,7 @@
     font-size: 4vw;
   }
 
-  h4{
-    font-size: 2.2vw ;
+  h4 {
+    font-size: 2.2vw;
   }
 }

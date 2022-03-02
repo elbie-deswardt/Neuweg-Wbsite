@@ -12,7 +12,6 @@ p {
   border-color: darkslategrey;
   border-width: 1.5px;
   color: darkslategray;
-  font-family: "Open Sans", sans-serif;
   font-size: 1.2vw;
   margin-top: 5%;
 }
@@ -36,16 +35,16 @@ p {
   padding-bottom: 10px;
 }
 
+.email-disclosure {
+  font-size: 1vw;
+}
+
 .form-label {
   font-size: 1.1vw;
   margin: 10px 0 5px;
 }
 
-.form-text {
-  font-size: 1vw;
-}
-
-.desktop-bar{
+.desktop-bar {
   background-color: #048abf;
 }
 
@@ -59,20 +58,20 @@ p {
   padding: 5% 10%;
 }
 
+.grid-item-trading-info h3 {
+  padding: 20px 0;
+}
+
 .hide-input {
   display: none;
 }
 
-.mobile-bar{
-  display:none;
+.mobile-bar {
+  display: none;
 }
 
 .submit-button {
   text-align: center;
-}
-
-.trading-info h3 {
-  padding: 20px 0;
 }
 
 #contact-us {
@@ -80,16 +79,20 @@ p {
 }
 
 @media (min-width: 1500px) {
-  .contact-form h1 {
-    font-size: 2vw;
-  }
-
   h3 {
     font-size: 1.5vw;
   }
 
   p {
     font-size: 1vw;
+  }
+
+  .contact-form h1 {
+    font-size: 2vw;
+  }
+
+  .email-disclosure {
+    font-size: 0.75vw;
   }
 }
 
@@ -101,24 +104,38 @@ p {
 }
 
 @media (max-width: 992px) {
-  .contact-form h1 {
-    font-size: 2.8vw;
+  h3 {
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
   }
 
-  .form-label {
+  h6 {
+    font-size: 1.7vw;
+  }
+
+  p {
     font-size: 1.5vw;
-  }
-
-  .form-text {
-    font-size: 1.3vw;
+    margin-bottom: 0.8vw;
   }
 
   .btn-submit {
     font-size: 2vw;
   }
 
-  .desktop-bar{
-    display:none;
+  .contact-form h1 {
+    font-size: 2.8vw;
+  }
+
+  .desktop-bar {
+    display: none;
+  }
+
+  .email-disclosure {
+    font-size: 1.3vw;
+  }
+
+  .form-label {
+    font-size: 1.5vw;
   }
 
   .grid-container {
@@ -130,43 +147,31 @@ p {
     grid-row: 2/3;
   }
 
-  .grid-item-trading-hours{
-    position:relative;
-    left:3vw;
+  .grid-item-trading-hours {
+    position: relative;
+    bottom: 0.5vw;
   }
-
 
   .grid-item-trading-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
     padding: 4% 5%;
   }
 
-  .mobile-bar{
+  .grid-item-trading-info h3 {
+    padding: 0;
+  }
+
+  .mobile-bar {
     display: inline;
     background-color: #048abf;
   }
 
-  .trading-icon{
+  .trading-icon {
     padding: 0.5vw 2vw;
   }
 
   #contact-us {
     margin: 3% 5vw;
-  }
-
-  h3 {
-    font-size: 2vw;
-    margin-bottom: 1.5vw;
-  }
-
-  h6{
-    font-size: 1.7vw;
-  }
-
-  p {
-    font-size: 1.5vw;
-    margin-bottom: 0.8vw;
   }
 }

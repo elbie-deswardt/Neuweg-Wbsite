@@ -6,11 +6,10 @@
   margin: 0 auto 10% auto;
   padding: 5%;
   width: 95%;
-  height: 80%;
 }
 
-.card-product-list h4,
-p {
+.card-title,
+.card-text {
   padding-left: 7%;
 }
 
@@ -34,14 +33,12 @@ p {
 .no-results {
   color: #051026;
   font-size: 2rem;
-  margin: 30px 0 80px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .product-card-btn {
   font-size: 1.1vw;
-  position: relative;
-  top: 5%;
   width: 95%;
 }
 
@@ -64,24 +61,6 @@ p {
   font-weight: bold;
   padding: 2% 0 5%;
   text-align: center;
-}
-
-@media (max-width: 1100px) {
-  .card-title {
-    font-size: 2vw;
-  }
-
-  .card-text {
-    font-size: 1.5vw;
-  }
-
-  #product-list {
-    margin: 0 8vw;
-  }
-
-  #product-list h1 {
-    font-size: 3.8vw;
-  }
 }
 
 @media (max-width: 900px) {
@@ -107,5 +86,6 @@ p {
 
   #product-list h1 {
     font-size: 6vw;
+    margin-bottom: 7%;
   }
 }
