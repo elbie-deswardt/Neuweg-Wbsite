@@ -58,7 +58,7 @@ class MyNavbar extends HTMLElement {
                         <a class="nav-link" lang-key="contact" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex" id="navbar-search">
+                <form class="d-flex navbar-search-desktop" id="navbar-search">
                     <input class="form-control me-2" id="search-input" href="products.html" type="search"
                         placeholder="Search" aria-label="Search">
                 </form>
@@ -90,7 +90,6 @@ class MyFooter extends HTMLElement {
     this.innerHTML = `
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="css/style.css" />
     
     <div id="footer">
       <div class="row">
