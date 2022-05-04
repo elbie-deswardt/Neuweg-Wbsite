@@ -101,6 +101,6 @@
 /* Phone */
 @media (max-width: 576px) {
   #product-list {
-    margin: 0 10vw;
+    margin: 0 2vw;
   }
 }

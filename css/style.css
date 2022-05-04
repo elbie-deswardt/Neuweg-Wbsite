@@ -48,7 +48,8 @@ body {
 }
 
 .footer-col {
-  padding: 3% 0;
+  padding: 3% auto;
+  margin: auto;
 }
 
 .footer-icon {
@@ -148,9 +149,41 @@ body {
 }
 
 
-/* Ipad */
-@media (max-width: 768px) {
-  .footer-address{
-    margin-left: 10px;
+/* Phone */
+@media (max-width: 576px) {
+  .brand-logo {
+    width: 200%;
   }
+
+  .copyright-text {
+    font-size: 2vw;
+  }
+
+  .dropdown-item {
+    font-size: 4vw;
+}
+
+.footer-col{
+  padding: 0;
+  margin: 5vw auto;
+}
+
+  .nav-item {
+    font-size: 5vw;
+  }
+
+
+  #footer{
+    font-size: 3vw;
+  }
+
+  .top-arrow-text {
+    font-size: 3vw;
+  }
+
+  #socials {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
 }
