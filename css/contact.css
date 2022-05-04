@@ -180,11 +180,11 @@ p {
 @media (max-width:576px) {
 
   h3 {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 
   p {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 
   .contact-form h1 {
