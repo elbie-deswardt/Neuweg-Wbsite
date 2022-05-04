@@ -101,15 +101,15 @@
 /* Phone */
 @media (max-width: 576px) {
   .card-title {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 
   .card-text {
-    font-size: 3.3vw;
+    font-size: 3.5vw;
   }
 
   .product-card-btn {
-    font-size: 2.5vw;
+    font-size: 2.7vw;
   }
 
   #product-list h1 {

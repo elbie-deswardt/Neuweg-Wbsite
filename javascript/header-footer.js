@@ -96,7 +96,7 @@ class MyFooter extends HTMLElement {
         <div class="col-sm-3 col-6 footer-col">
           <div class="row justify-content-center">
             <div class="col-2 d-none d-md-block"><i class="icon footer-icon  fas fa-map-marker-alt"></i></div>
-            <div class="col-8 footer-address">
+            <div class="col-10 footer-address">
               NEUWEG GmbH <br /> c/o Acconsis GmbH <br /> Schloßschmidstr. 5<br /> D-80639 Munich
             </div>
           </div>
