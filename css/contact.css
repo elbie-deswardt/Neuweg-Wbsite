@@ -140,7 +140,7 @@ p {
 
   .grid-container {
     grid-template-columns: auto;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 1fr 6fr;
   }
 
   .grid-item-contact-form {
@@ -174,4 +174,45 @@ p {
   #contact-us {
     margin: 3% 5vw;
   }
+}
+
+/* Mobile */
+@media (max-width:576px) {
+
+  h3 {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 2.5vw;
+  }
+
+  .contact-form h1 {
+    font-size: 7vw;
+  }
+.email-disclosure{
+  font-size: 2.5vw;
+}
+  .form-label{
+    font-size: 3.5vw;
+    margin-top: 4vh;
+  }
+
+  .grid-item-contact-details{
+    display: none;
+  }
+
+  .grid-item-headquarters{
+    display: none;
+  }
+
+  .grid-item-trading-info {
+    grid-template-columns: 1fr;
+    padding: 4% 5%;
+  }
+
+  .btn-submit {
+    font-size: 3vw;
+  }
+
 }
