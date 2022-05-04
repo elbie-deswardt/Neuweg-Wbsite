@@ -163,3 +163,35 @@ a:link {
     font-size: 1.5vw;
   }
 }
+
+/* Phone */
+@media (max-width:576px) {
+  .about-image {
+    height: 400px;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-text h1 {
+    font-size: 8vw;
+  }
+
+  .about-text p {
+    font-size: 3vw;
+  }
+
+  .team {
+    margin: 0 15vw;
+}
+
+  .team-member-name {
+    font-size: 4vw;
+  }
+
+  .team-member-position {
+    font-size: 3.5vw;
+  }
+
+}
