@@ -140,7 +140,7 @@ p {
 
   .grid-container {
     grid-template-columns: auto;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 4fr;
   }
 
   .grid-item-contact-form {
@@ -181,6 +181,7 @@ p {
 
   h3 {
     font-size: 6vw;
+    margin-bottom: 2vh;
   }
 
   p {
@@ -188,7 +189,8 @@ p {
   }
 
   .contact-form h1 {
-    font-size: 7vw;
+    font-size: 8vw;
+    padding-bottom: 0;
   }
 .email-disclosure{
   font-size: 2.5vw;
