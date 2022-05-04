@@ -100,6 +100,22 @@
 
 /* Phone */
 @media (max-width: 576px) {
+  .card-title {
+    font-size: 5vw;
+  }
+
+  .card-text {
+    font-size: 3.3vw;
+  }
+
+  .product-card-btn {
+    font-size: 2.5vw;
+  }
+
+  #product-list h1 {
+    font-size: 9vw;
+  }
+
   #product-list {
     margin: 0 2vw;
   }
