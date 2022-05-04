@@ -172,15 +172,21 @@ body {
     font-size: 6vw;
   }
 
-
-  #footer{
-    font-size: 3.5vw;
-  }
-
   .top-arrow-text {
     font-size: 3vw;
   }
 
+  #footer{
+    font-size: 3.5vw;
+  }
+  
+#navbar-search {
+  width: 60vw;
+}
+
+#search-input {
+  font-size: 4vw;
+}
   #socials {
     font-size: 3.5vw;
     text-align: center;
