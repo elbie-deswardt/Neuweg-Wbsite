@@ -168,7 +168,7 @@ a:link {
 @media (max-width:576px) {
 
   .about-content h1{
-    font-size: 8vw;
+    font-size: 10vw;
     margin: 5vh 0;
   }
 
@@ -189,7 +189,7 @@ a:link {
   }
 
   .team {
-    margin: 0 15vw;
+    margin: 0 10vw;
 }
 
   .team-member-name {

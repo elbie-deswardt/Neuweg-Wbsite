@@ -163,7 +163,7 @@
   }
 
   .carousel .carousel-item {
-    height: 150px;
+    height: 350px;
   }
 
   .product-btn {
@@ -171,12 +171,12 @@
   }
 
   #product-menu {
-    padding: 0 15%;
+    padding: 0 10%;
     text-align: center;
   }
 
   .product-menu-header {
-    font-size: 8vw;
+    font-size: 10vw;
   }
 
   #ear-nose-throat{
