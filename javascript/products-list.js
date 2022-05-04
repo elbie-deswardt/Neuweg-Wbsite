@@ -39,8 +39,6 @@ ${sectionsToDisplay
           <h4 class="card-title" lang-key="${product.name
               .toLowerCase()
               .replace(/[^A-Za-z0-9]/g, "_")}">${product.name}</h4>
-          <p class="card-text" lang-key="product_description">${product.subText
-            }</p>
         </div>
         <div class="col-4">
           <a
@@ -51,6 +49,10 @@ ${sectionsToDisplay
             >Read More</a
           >
         </div>
+      </div>
+      <div class="row">
+      <p class="card-text" lang-key="product_description">${product.subText
+      }</p>
       </div>
       <div class="row">
         <img
