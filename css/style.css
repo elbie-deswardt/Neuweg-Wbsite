@@ -149,10 +149,10 @@ body {
 }
 
 
-/* Phone */
+/* Mobile */
 @media (max-width: 576px) {
   .brand-logo {
-    width: 200%;
+    width: 250%;
   }
 
   .copyright-text {
