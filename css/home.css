@@ -170,6 +170,11 @@
     font-size: 4.5vw;
   }
 
+  #product-menu {
+    padding: 0 20%;
+    text-align: center;
+  }
+
   .product-menu-header {
     font-size: 8vw;
   }
