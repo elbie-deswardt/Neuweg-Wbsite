@@ -23,12 +23,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Custom css styling of German web version.
   if ((sessionStorage.getItem("language") == "de") && (window.location.pathname == "/" || window.location.pathname == "/Neuweg-Website/index.html")) {
-    //   if (window.matchMedia('(max-width: 767px)').matches) {
-    //     //...
-    // } else {
-    //     //...
-    // }
-    $('h4:contains("Ear-Nose-Throat")').css({ "font-size": "1.3vw", "padding": "0.1vw" });
+    $('h4:contains("Ear-Nose-Throat")').css({ "font-size": "1.3vw", "padding": "0.1vw"});
+      if (window.matchMedia('(max-width: 992px)').matches) {
+        $('h4:contains("Ear-Nose-Throat")').css({ "font-size": "1.8vw", "padding": "0.1vw"});
+    }
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      $('h4:contains("Ear-Nose-Throat")').css({ "font-size": "2.8vw", "padding": "0.1vw"});
+  }
+    
   }
 
   // Custom css styling of German web version.

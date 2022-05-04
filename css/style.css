@@ -42,7 +42,7 @@ body {
 /* Footer Styling */
 
 .copyright-text {
-  top: 30px;
+  top: 10px;
   font-size: 0.8vw;
   position: relative;
 }
@@ -56,12 +56,11 @@ body {
 }
 
 .socials-icon {
-  padding: 0.5rem 1rem;
+  padding: 1vw 1vh;
 }
 
 .top-arrow-text {
   font-size: 0.75vw;
-  margin-bottom: 10%;
 }
 
 .top-col {
@@ -95,7 +94,7 @@ body {
 }
 
 #top-arrow {
-  bottom: 20px;
+  bottom: 1vh;
   position: relative;
 }
 
@@ -145,5 +144,13 @@ body {
 
   #search-input {
     font-size: 2vw;
+  }
+}
+
+
+/* Ipad */
+@media (max-width: 768px) {
+  .footer-address{
+    margin-left: 10px;
   }
 }

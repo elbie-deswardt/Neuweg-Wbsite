@@ -107,6 +107,8 @@
   text-align: center;
 }
 
+
+/* Wide desktop */
 @media (min-width: 1570px) {
   .carousel .carousel-item {
     height: 700px;
@@ -140,5 +142,27 @@
 
   #product-menu {
     padding: 0 8vw;
+  }
+}
+
+/* Ipad */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 3vw;
+  }
+
+  .product-btn {
+    font-size: 2vw;
+  }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+  .carousel .carousel-item {
+    height: 230px;
+  }
+
+  #ear-nose-throat{
+    font-size: 3vw;
   }
 }

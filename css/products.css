@@ -89,3 +89,18 @@
     margin-bottom: 7%;
   }
 }
+
+
+/* Ipad */
+@media (max-width: 768px) {
+  .product-card-btn {
+    font-size: 1.8vw;
+  }
+}
+
+/* Phone */
+@media (max-width: 576px) {
+  #product-list {
+    margin: 0 10vw;
+  }
+}
