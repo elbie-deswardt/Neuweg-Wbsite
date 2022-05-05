@@ -1,4 +1,7 @@
 /* About Page Styling */
+i {
+  margin: 3vh;
+}
 
 #about {
   font-family: "Open Sans", sans-serif;
@@ -43,6 +46,14 @@ a:link {
   font-weight: lighter;
 }
 
+.contact-btn {
+  background-color: white;
+  color: #d9b70d;
+  margin-top: 5vh;
+  position: absolute;
+  bottom: 4vh;
+}
+
 .consultation {
   font-size: 1.2vw;
   margin-top: 5%;
@@ -55,26 +66,63 @@ a:link {
 
 .expertise {
   background-color: #d3d1d14f;
-  padding: 5% 0 2%;
+  padding: 5% 5% 2%;
 }
 
-.expertise-grid {
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr 5fr;
+.flip-box {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer;
+  margin: 2vh;
 }
 
-.expertise-icon {
-  padding: 1vw;
+
+.flip-box-front {
+  background-color: rgba(5, 16, 38, 0.8);
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  padding: 8%;
 }
 
-.expertise-text {
-  font-size: 1.5vw;
-  padding: 0.5vw;
+.flip-box:hover .flip-box-front {
+  transform: rotateY(-180deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box-back {
+  background-color: rgba(217, 183, 13, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+  padding: 10%;
+}
+
+.flip-box:hover .flip-box-back {
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+}
+
+.flip-box-back,
+.flip-box-front {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  color: white;
+  height: 35vh;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  backface-visibility: hidden;
 }
 
 .img-fluid {
   height: 45vw;
   width: 100%;
+}
+
+.inner {
+  color: white;
 }
 
 .shadow {
@@ -133,14 +181,6 @@ a:link {
 
   .consultation a:link {
     font-size: 2vw;
-  }
-
-  .expertise-grid {
-    grid-template-columns: 10% 90%;
-  }
-
-  .expertise-text {
-    font-size: 2.3vw;
   }
 
   .img-fluid {
