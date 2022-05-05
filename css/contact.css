@@ -192,19 +192,21 @@ p {
     font-size: 8vw;
     padding-bottom: 0;
   }
-.email-disclosure{
-  font-size: 2.5vw;
-}
-  .form-label{
+
+  .email-disclosure {
+    font-size: 2.5vw;
+  }
+
+  .form-label {
     font-size: 3.5vw;
     margin-top: 4vh;
   }
 
-  .grid-item-contact-details{
+  .grid-item-contact-details {
     display: none;
   }
 
-  .grid-item-headquarters{
+  .grid-item-headquarters {
     display: none;
   }
 

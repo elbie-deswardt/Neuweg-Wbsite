@@ -129,7 +129,7 @@ body {
     font-size: 1vw;
   }
 
-  .translate-menu{
+  .translate-menu {
     text-align: end;
     margin-right: 5vw;
   }
@@ -161,12 +161,12 @@ body {
 
   .dropdown-item {
     font-size: 5vw;
-}
+  }
 
-.footer-col{
-  padding: 0;
-  margin: 5vw auto;
-}
+  .footer-col {
+    padding: 0;
+    margin: 5vw auto;
+  }
 
   .nav-item {
     font-size: 6vw;
@@ -176,17 +176,18 @@ body {
     font-size: 3vw;
   }
 
-  #footer{
+  #footer {
     font-size: 3.5vw;
   }
-  
-#navbar-search {
-  width: 60vw;
-}
 
-#search-input {
-  font-size: 4vw;
-}
+  #navbar-search {
+    width: 60vw;
+  }
+
+  #search-input {
+    font-size: 4vw;
+  }
+
   #socials {
     font-size: 3.5vw;
     text-align: center;

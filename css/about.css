@@ -19,7 +19,7 @@ a:link {
   text-align: center;
 }
 
-.about-image {
+.about-us {
   position: relative;
 }
 
@@ -167,13 +167,13 @@ a:link {
 /* Phone */
 @media (max-width:576px) {
 
-  .about-content h1{
+  .about-content h1 {
     font-size: 10vw;
     margin: 5vh 0;
   }
 
   .about-image {
-    height: 400px;
+    height: 600px;
   }
 
   .about-text {
@@ -190,7 +190,7 @@ a:link {
 
   .team {
     margin: 0 10vw;
-}
+  }
 
   .team-member-name {
     font-size: 4vw;

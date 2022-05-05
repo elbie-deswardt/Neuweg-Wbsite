@@ -6,8 +6,7 @@
 // - The catalogue page to which to link for more information on specific products within the category.
 
 const products = {
-  urology: [
-    {
+  urology: [{
       name: "Cystoscopes",
       subText: "Lorem ipsum dolor sit amet.",
       image: "images/Cystoscope.PNG",
@@ -63,8 +62,7 @@ const products = {
     },
   ],
 
-  orthopedics: [
-    {
+  orthopedics: [{
       name: "Arthroscopes",
       subText: "Lorem ipsum dolor sit amet.",
       image: "images/Cystoscope.PNG",
@@ -84,17 +82,14 @@ const products = {
     },
   ],
 
-  laparoscopy: [
-    {
-      name: "Laparoscopes",
-      subText: "Lorem ipsum dolor sit amet.",
-      image: "images/Cystoscope.PNG",
-      page: 36,
-    },
-  ],
+  laparoscopy: [{
+    name: "Laparoscopes",
+    subText: "Lorem ipsum dolor sit amet.",
+    image: "images/Cystoscope.PNG",
+    page: 36,
+  }, ],
 
-  gynecology: [
-    {
+  gynecology: [{
       name: "Hysteroscopes",
       subText: "Lorem ipsum dolor sit amet.",
       image: "images/Cystoscope.PNG",
@@ -114,8 +109,7 @@ const products = {
     },
   ],
 
-  ear_nose_throat: [
-    {
+  ear_nose_throat: [{
       name: "Sinuscopes",
       subText: "Lorem ipsum dolor sit amet.",
       image: "images/Cystoscope.PNG",
@@ -129,8 +123,7 @@ const products = {
     },
   ],
 
-  light_sources: [
-    {
+  light_sources: [{
       name: "Light Guides",
       subText: "Lorem ipsum dolor sit amet.",
       image: "images/Cystoscope.PNG",
@@ -144,23 +137,21 @@ const products = {
     },
   ],
 
-  sterilization: [
-    {
-      name: "Cleaning, Disinfection and Sterilization",
-      subText: "Lorem ipsum dolor sit amet.",
-      image: "images/Cystoscope.PNG",
-      page: 52,
-    },
-  ],
+  sterilization: [{
+    name: "Cleaning, Disinfection and Sterilization",
+    subText: "Lorem ipsum dolor sit amet.",
+    image: "images/Cystoscope.PNG",
+    page: 52,
+  }, ],
 
-  demonstration: [
-    {
-      name: "Demonstration Cases",
-      subText: "Lorem ipsum dolor sit amet.",
-      image: "images/Cystoscope.PNG",
-      page: 56,
-    },
-  ],
+  demonstration: [{
+    name: "Demonstration Cases",
+    subText: "Lorem ipsum dolor sit amet.",
+    image: "images/Cystoscope.PNG",
+    page: 56,
+  }, ],
 };
 
-export { products };
+export {
+  products
+};

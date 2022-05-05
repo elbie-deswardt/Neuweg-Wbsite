@@ -164,5 +164,5 @@ searchBar.addEventListener("submit", (e) => {
 $(document).ready(function () {
   if (window.matchMedia('(max-width: 576px)').matches) {
     $('.top-col').addClass("order-first");
-}
+  }
 });

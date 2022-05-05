@@ -225,4 +225,6 @@ const langdata = {
   },
 };
 
-export { langdata };
+export {
+  langdata
+};

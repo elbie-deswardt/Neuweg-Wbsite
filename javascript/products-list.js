@@ -1,7 +1,11 @@
 // This section contains all the code contained within the display of individual products.
 
-import { products } from "./product-content.js";
-import { langdata } from "./translation-content.js"
+import {
+  products
+} from "./product-content.js";
+import {
+  langdata
+} from "./translation-content.js"
 
 //This script loads the title of the section the user clicked on from the sessionStorage variable productSection
 let productSection = sessionStorage.getItem("productSection");
