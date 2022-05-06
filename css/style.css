@@ -37,8 +37,6 @@ body {
   padding-right: 3vw;
 }
 
-
-
 /* Footer Styling */
 
 .copyright-text {
@@ -148,7 +146,6 @@ body {
   }
 }
 
-
 /* Mobile */
 @media (max-width: 576px) {
   .brand-logo {
@@ -192,5 +189,4 @@ body {
     font-size: 3.5vw;
     text-align: center;
   }
-
 }

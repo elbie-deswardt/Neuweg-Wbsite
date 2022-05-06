@@ -93,7 +93,7 @@ class MyFooter extends HTMLElement {
     
     <div id="footer">
       <div class="row">
-        <div class="col-sm-3 col-6 footer-col">
+        <div class="col-lg-2 col-sm-3 col-6 footer-col">
           <div class="row justify-content-center">
             <div class="col-2 d-none d-md-block"><i class="icon footer-icon  fas fa-map-marker-alt"></i></div>
             <div class="col-10 footer-address">
@@ -101,22 +101,22 @@ class MyFooter extends HTMLElement {
             </div>
           </div>
         </div>
-        <div class="col-sm-3 col-6 footer-col align-items-center">
+        <div class="col-lg-3 col-sm-3 col-6 footer-col align-items-center">
           <i class="icon footer-icon fas fa-phone-alt"></i>+49 (89) 54714 - 3<br />
           <i class="icon footer-icon  fas fa-fax"></i>+49 (89) 54714 - 5964<br />
           <i class="icon footer-icon  far fa-envelope"></i>info@neuwegmed.de
         </div>
-        <div class="col-sm-3 col-12 top-col footer-col">
+        <div class="col-lg-2 col-sm-3 col-12 top-col footer-col">
           <i class="fas fa-chevron-up fa-4x" id="top-arrow" href="#"></i><br />
           <span class="top-arrow-text" lang-key="back_to_top">Back to the top</span><br />
           <span class="copyright-text">© 2023 <span lang-key="by">by</span> Neuweg Med</span>
         </div>
-        <div class="col-sm-3 col-12 footer-col" id="socials">
+        <div class="col-lg-3 col-sm-3 col-12 footer-col" id="socials">
           <span lang-key="follow_us">Follow us on</span><br />
           <i class="socials-icon icon fab fa-twitter fa-2x"></i>
           <i class="socials-icon icon fab fa-linkedin-in fa-2x"></i>
         </div>
-        <div class="col footer-col"></div>
+        <div class="col-lg-2 col footer-col"></div>
       </div>
     </div>
     `;

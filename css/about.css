@@ -95,17 +95,16 @@ a:link {
   padding: 5%;
 }
 
-@media (hover) {
-  .flip-box:hover .flip-box-front {
+
+  .flip-box:hover .flip-box-front ,.flip-box:active .flip-box-front{
     transform: rotateY(-180deg);
     transform-style: preserve-3d;
   }
 
-  .flip-box:hover .flip-box-back {
+  .flip-box:hover .flip-box-back ,.flip-box:active .flip-box-back{
     transform: rotateY(0deg);
     transform-style: preserve-3d;
   }
-}
 
 .flip-box-back {
   background-color: rgba(217, 183, 13, 0.8);
