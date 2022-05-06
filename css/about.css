@@ -1,5 +1,6 @@
 /* About Page Styling */
-i {
+
+.expertise i {
   margin: 3vh;
 }
 
@@ -94,9 +95,16 @@ a:link {
   padding: 5%;
 }
 
-.flip-box:hover .flip-box-front {
-  transform: rotateY(-180deg);
-  transform-style: preserve-3d;
+@media (hover) {
+  .flip-box:hover .flip-box-front {
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-back {
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+  }
 }
 
 .flip-box-back {
@@ -108,11 +116,6 @@ a:link {
   transform: rotateY(180deg);
   transform-style: preserve-3d;
   padding: 10%;
-}
-
-.flip-box:hover .flip-box-back {
-  transform: rotateY(0deg);
-  transform-style: preserve-3d;
 }
 
 .flip-box-back,
