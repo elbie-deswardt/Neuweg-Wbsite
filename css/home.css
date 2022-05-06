@@ -2,7 +2,7 @@
 
 .carousel-text {
   font-family: "Raleway", sans-serif;
-  font-size: 5vw;
+  font-size: 60px;
   position: absolute;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .carousel-text-english-3 {
-  color: #d9b70d;
+  color: #ffff;
   right: 9%;
   top: 60%;
 }
@@ -39,7 +39,7 @@
 }
 
 .carousel-text-german-3 {
-  color: #051026;
+  color: #d9b70d;
   font-weight: bold;
   right: 9vw;
   top: 70%;
@@ -107,7 +107,6 @@
   text-align: center;
 }
 
-
 /* Wide desktop */
 @media (min-width: 1570px) {
   .carousel .carousel-item {
@@ -126,6 +125,10 @@
 @media (max-width: 990px) {
   .card-title {
     font-size: 2vw;
+  }
+
+  .carousel-text {
+    font-size: 50px;
   }
 
   .carousel .carousel-item {
@@ -151,6 +154,10 @@
     font-size: 3vw;
   }
 
+  .carousel-text {
+    font-size: 40px;
+  }
+
   .product-btn {
     font-size: 2vw;
   }
@@ -160,6 +167,10 @@
 @media (max-width: 576px) {
   .card-title {
     font-size: 5vw;
+  }
+
+  .carousel-text {
+    font-size: 35px;
   }
 
   .carousel .carousel-item {
