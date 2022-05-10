@@ -53,6 +53,7 @@ a:link {
   margin-top: 5vh;
   position: absolute;
   bottom: 4vh;
+  right: 2vw;
 }
 
 .consultation {
@@ -77,7 +78,8 @@ a:link {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.4; /* Here is your opacity */
+  opacity: 0.4;
+  /* Here is your opacity */
 }
 
 .flip-box {
@@ -174,6 +176,28 @@ a:link {
   width: 70%;
 }
 
+/* Wide desktop */
+@media (min-width: 1570px) {
+  .expertise i {
+    margin: 4vh;
+  }
+
+  .flip-box-back h5 {
+    font-size: 1.2vw;
+  }
+
+  .flip-box-front h5 {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-content {
+    margin: 0 1%;
+  }
+}
+
+
 @media (max-width: 992px) {
   .about-content h1 {
     font-size: 5vw;
@@ -194,6 +218,7 @@ a:link {
   .consultation a:link {
     font-size: 2vw;
   }
+
 
   .img-fluid {
     height: 60vw;
