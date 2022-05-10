@@ -56,6 +56,10 @@ a:link {
   right: 2vw;
 }
 
+.contact-btn:hover{
+  color:#048abf;
+}
+
 .consultation {
   font-size: 1.2vw;
   margin-top: 5%;
