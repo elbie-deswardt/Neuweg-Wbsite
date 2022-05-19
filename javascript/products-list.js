@@ -7,8 +7,8 @@ import {
   langdata
 } from "./translation-content.js"
 
-//This script loads the title of the section the user clicked on from the sessionStorage variable productSection
-let productSection = sessionStorage.getItem("productSection");
+//This script loads the title of the section the user clicked on from the query parameter set prior to navigation
+let productSection = window.location.search.substring(1);
 
 // Render section heading with correct dataKey and title based on the user's selection.
 $(

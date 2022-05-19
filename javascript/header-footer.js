@@ -29,25 +29,25 @@ class MyNavbar extends HTMLElement {
                             Products
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownProductMenuLink">
-                            <a class="dropdown-item product-section" lang-key="urology" href="products.html">Urology</a>
+                            <a class="dropdown-item product-section" lang-key="urology" href="products.html?urology">Urology</a>
                             <a class="dropdown-item product-section" lang-key="orthopedics"
-                                href="products.html">Orthopedics</a>
+                                href="products.html?orthopedics">Orthopedics</a>
                             <a class="dropdown-item product-section" lang-key="laparoscopy"
-                                href="products.html">Laparoscopy</a>
+                                href="products.html?laparoscopy">Laparoscopy</a>
                             <a class="dropdown-item product-section" lang-key="gynecology"
-                                href="products.html">Gynecology</a>
+                                href="products.html?gynecology">Gynecology</a>
                             <a class="dropdown-item product-section" lang-key="ear_nose_throat"
-                                href="products.html">Ear-Nose-Throat</a>
-                            <a class="dropdown-item product-section" lang-key="light_sources" href="products.html">Light
+                                href="products.html?ear_nose_throat">Ear-Nose-Throat</a>
+                            <a class="dropdown-item product-section" lang-key="light_sources" href="products.html?light_sources">Light
                                 Sources</a>
                             <a class="dropdown-item product-section" lang-key="sterilization"
-                                href="products.html">Sterilization</a>
+                                href="products.html?sterilization">Sterilization</a>
                             <a class="dropdown-item product-section" lang-key="demonstration"
-                                href="products.html">Demonstration</a>
+                                href="products.html?demonstration">Demonstration</a>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <a class="dropdown-item product-section" lang-key="all_products" href="products.html">All
+                            <a class="dropdown-item product-section" lang-key="all_products" href="products.html?all_products">All
                                 products</a>
                         </ul>
                     </li>
@@ -125,11 +125,6 @@ class MyFooter extends HTMLElement {
 
 customElements.define("my-footer", MyFooter);
 
-// When a user selects to view a product section , the selection is stored prior to navigation.
-$(".product-section").click(function () {
-  let productSection = $(this).attr('lang-key');
-  sessionStorage.setItem("productSection", productSection);
-});
 
 $(".language-item").click(function () {
   //Get the language selected
@@ -155,10 +150,9 @@ searchBar.addEventListener("submit", (e) => {
   const search = searchInput.value;
   sessionStorage.setItem("search", search);
   sessionStorage.setItem("userSearch", true);
-  // Update the product section to ensure a search is done across all products and not only sections.
-  sessionStorage.setItem("productSection", "all_products");
+
   // Navigate to the product page.
-  window.location.pathname = "/Neuweg-Website/products.html";
+  window.location.pathname = "/Neuweg-Website/products.html?all_products";
 });
 
 $(document).ready(function () {
