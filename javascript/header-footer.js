@@ -152,7 +152,8 @@ searchBar.addEventListener("submit", (e) => {
   sessionStorage.setItem("userSearch", true);
 
   // Navigate to the product page.
-  window.location.pathname = "/Neuweg-Website/products.html?all_products";
+  window.location.search = "?all_products"
+  window.location.pathname = "/Neuweg-Website/products.html";
 });
 
 $(document).ready(function () {
