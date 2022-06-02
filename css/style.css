@@ -169,6 +169,10 @@ body {
     margin: 5vw auto;
   }
 
+  .language-item{
+    font-size: 4vw;
+  }
+
   .nav-item {
     font-size: 6vw;
   }
