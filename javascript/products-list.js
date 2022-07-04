@@ -56,7 +56,7 @@ ${sectionsToDisplay
       </div>
       <div class="row">
       <p class="card-text" lang-key="product_description">${product.subText
-      }</p>
+            }</p>
       </div>
       <div class="row">
         <img
