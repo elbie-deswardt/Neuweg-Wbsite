@@ -55,7 +55,9 @@ ${sectionsToDisplay
         </div>
       </div>
       <div class="row">
-      <p class="card-text" lang-key="product_description">${product.subText
+      <p class="card-text" lang-key="${product.name
+        .toLowerCase()
+        .replace(/[^A-Za-z0-9]/g, "_")}_description">${product.subText
             }</p>
       </div>
       <div class="row">
