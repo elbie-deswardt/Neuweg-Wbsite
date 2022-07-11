@@ -98,12 +98,12 @@
 
   .landing-page-image-text-english {
     right: 4%;
-    top: 40%;
+    top: 30%;
   }
 
   .landing-page-image-text-german {
     right: 4%;
-    top: 50%;
+    top: 35%;
   }
 
 }
@@ -141,16 +141,6 @@
     font-size: 3vw;
   }
 
-  .landing-page-image-text-english {
-    right: 4%;
-    top: 40%;
-  }
-
-  .landing-page-image-text-german {
-    right: 4%;
-    top: 45%;
-  }
-
   .product-btn {
     font-size: 2vw;
   }
@@ -164,6 +154,16 @@
 
   .landing-page-image img {
     height: 350px;
+  }
+
+  .landing-page-image-text-english {
+    right: 4%;
+    top: 30%;
+  }
+
+  .landing-page-image-text-german {
+    right: 4%;
+    top: 33%;
   }
 
   .product-btn {
