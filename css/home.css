@@ -95,6 +95,17 @@
   .landing-page-image-text {
     font-size: 3.5vw;
   }
+
+  .landing-page-image-text-english {
+    right: 4%;
+    top: 40%;
+  }
+
+  .landing-page-image-text-german {
+    right: 4%;
+    top: 50%;
+  }
+
 }
 
 @media (max-width: 990px) {
@@ -108,16 +119,6 @@
 
   .landing-page-image img {
     height: 450px;
-  }
-
-  .landing-page-image-text-english {
-    right: 4%;
-    top: 40%;
-  }
-
-  .landing-page-image-text-german {
-    right: 4%;
-    top: 50%;
   }
 
 
