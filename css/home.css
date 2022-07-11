@@ -1,56 +1,25 @@
-/* Carousel Styling */
+/* Labing Page Image Styling */
+.landing-page-image img {
+  height: 70vh;
+}
 
-.carousel-text {
+.landing-page-image-text {
   font-family: "Raleway", sans-serif;
   font-size: 60px;
   position: absolute;
 }
 
-.carousel-text-english-1 {
-  color: #fff;
-  left: 6vw;
-  top: 20%;
-}
-
-.carousel-text-english-2 {
-  color: #d9b70d;
-  right: 9vw;
-  top: 20%;
-}
-
-.carousel-text-english-3 {
+.landing-page-image-text-english {
   color: #048abf;
-  right: 9%;
+  right: 7%;
+  top: 50%;
+}
+
+.landing-page-image-text-german {
+  color: #d9b70d;
+  font-weight: bold;
+  right: 7%;
   top: 60%;
-}
-
-.carousel-text-german-1 {
-  color: #d9b70d;
-  font-weight: bold;
-  left: 6vw;
-  top: 30%;
-}
-
-.carousel-text-german-2 {
-  color: #051026;
-  font-weight: bold;
-  right: 9vw;
-  top: 30%;
-}
-
-.carousel-text-german-3 {
-  color: #d9b70d;
-  font-weight: bold;
-  right: 9vw;
-  top: 70%;
-}
-
-.carousel .carousel-item {
-  height: 500px;
-}
-
-.carousel-item img {
-  min-height: 500px;
 }
 
 /* Products Menu Styling */
@@ -109,16 +78,22 @@
 
 /* Wide desktop */
 @media (min-width: 1570px) {
-  .carousel .carousel-item {
+  .landing-page-image img {
     height: 700px;
-  }
-
-  .carousel-item img {
-    min-height: 700px;
   }
 
   #product-menu {
     padding: 0 15%;
+  }
+}
+
+@media (max-width: 1570px) {
+  .landing-page-image img {
+    height: 500px;
+  }
+
+  .landing-page-image-text {
+    font-size: 3.5vw;
   }
 }
 
@@ -127,13 +102,24 @@
     font-size: 2vw;
   }
 
-  .carousel-text {
-    font-size: 50px;
+  .landing-page-image-text {
+    font-size: 4vw;
   }
 
-  .carousel .carousel-item {
+  .landing-page-image img {
     height: 450px;
   }
+
+  .landing-page-image-text-english {
+    right: 4%;
+    top: 40%;
+  }
+
+  .landing-page-image-text-german {
+    right: 4%;
+    top: 50%;
+  }
+
 
   .product-btn {
     font-size: 1.5vw;
@@ -154,8 +140,14 @@
     font-size: 3vw;
   }
 
-  .carousel-text {
-    font-size: 40px;
+  .landing-page-image-text-english {
+    right: 4%;
+    top: 40%;
+  }
+
+  .landing-page-image-text-german {
+    right: 4%;
+    top: 45%;
   }
 
   .product-btn {
@@ -169,11 +161,7 @@
     font-size: 5vw;
   }
 
-  .carousel-text {
-    font-size: 35px;
-  }
-
-  .carousel .carousel-item {
+  .landing-page-image img {
     height: 350px;
   }
 
