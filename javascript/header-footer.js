@@ -97,12 +97,12 @@ class MyFooter extends HTMLElement {
           <div class="row justify-content-center">
             <div class="col-2 d-none d-md-block"><i class="icon footer-icon  fas fa-map-marker-alt"></i></div>
             <div class="col-10 footer-address">
-              NEUWEG GmbH <br /> c/o Acconsis GmbH <br /> Schloßschmidstr. 5<br /> D-80639 Munich
+             Neuweg Medizintechnik <br /> GmbH <br /> Am Söldnermoos 17<br /> 85399 Hallbergmoos
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-sm-3 col-6 footer-col align-items-center">
-          <i class="icon footer-icon fas fa-phone-alt"></i>+49 (89) 54714 - 3<br />
+          <i class="icon footer-icon fas fa-phone-alt"></i>+27 (83) 225 0832<br />
           <i class="icon footer-icon  fas fa-fax"></i>+49 (89) 54714 - 5964<br />
           <i class="icon footer-icon  far fa-envelope"></i>info@neuwegmed.de
         </div>
