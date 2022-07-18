@@ -103,7 +103,7 @@
 
   .landing-page-image-text-german {
     right: 4%;
-    top: 35%;
+    top: 40%;
   }
 
 }
@@ -141,6 +141,11 @@
     font-size: 3vw;
   }
 
+  .landing-page-image img {
+    height: 400px;
+  }
+
+
   .product-btn {
     font-size: 2vw;
   }
@@ -153,7 +158,7 @@
   }
 
   .landing-page-image img {
-    height: 350px;
+    height: 250px;
   }
 
   .landing-page-image-text-english {
