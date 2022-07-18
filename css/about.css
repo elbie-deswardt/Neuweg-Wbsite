@@ -324,3 +324,11 @@ a:link {
     height: 33vw;
   }
 }
+
+@media (max-width: 576px) {
+
+  .flip-box-back,
+  .flip-box-front {
+    height: 38vw;
+  }
+}
