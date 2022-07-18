@@ -268,7 +268,7 @@ a:link {
 }
 
 /* iPad */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .about-content h1 {
     font-size: 6vw;
     margin: 5vw 0;
