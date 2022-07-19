@@ -136,7 +136,7 @@
 }
 
 /* Ipad */
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   .card-title {
     font-size: 3vw;
   }

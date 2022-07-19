@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "padding": "0.1vw"
       });
     }
-    if (window.matchMedia('(max-width: 768px)').matches) {
+    if (window.matchMedia('(max-width: 767px)').matches) {
       $('h4:contains("Ear-Nose-Throat")').css({
         "font-size": "2.8vw",
         "padding": "0.1vw"
