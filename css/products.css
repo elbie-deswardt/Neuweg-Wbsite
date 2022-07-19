@@ -100,7 +100,7 @@
 
 
 /* Ipad */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .product-card-btn {
     font-size: 1.7vw;
   }
