@@ -274,6 +274,10 @@ a:link {
     margin: 5vw 0;
   }
 
+  .contact-btn{
+    display: none;
+  }
+
   .flip-box-front {
     padding: 3%;
   }
@@ -317,10 +321,6 @@ a:link {
 
   .about-text p {
     font-size: 4.5vw;
-  }
-
-  .contact-btn{
-    display: none;
   }
 
   .flip-box-back,
