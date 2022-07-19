@@ -319,9 +319,14 @@ a:link {
     font-size: 4.5vw;
   }
 
+  .contact-btn{
+    display: none;
+  }
+
   .flip-box-back,
   .flip-box-front {
-    height: 33vw;
+    height: 35vw;
+    padding: 5vw;
   }
 }
 
